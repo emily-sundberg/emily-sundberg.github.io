@@ -1,0 +1,23 @@
+[project]
+name = "emily-sundberg-github-io"
+version = "0.0.1"
+description = "Initial Website for Emily Sundberg Github"
+authors = [
+    {name = "emily-sundberg",email = "emilylsundberg@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.3.3,<3.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "plotly (>=6.3.0,<7.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "emily_sundberg"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
