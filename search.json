@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m originally from Seattle, Washington, and I’m 24 years old.\nI studied Abstract Mathematics and Chinese Studies at Clemson University in Clemson, SC, graduating in December 2023.\nAfter graduation, I moved to San Antonio, Texas to take my current job as a Management Analyst for the Air Force Manpower Analysis Agency.\nI really love my job because I get to travel a lot — this past spring, I even spent two weeks in South Korea! ✈️\n\n\nHobbies & Interests\n\n🧶 Knitting\n\n🧗‍♀️ Rock climbing\n\n🏈 Watching football\n\n🎵 Country music\n\n📚 Reading\n\n🏄‍♀️ Wakesurfing\n\nIn my free time, you can usually find me cheering on the Seattle Seahawks while knitting a gift that’s probably three months late. 😅"
+    "text": "I’m originally from Seattle, Washington, and I’m 24 years old.\nI studied Abstract Mathematics and Chinese Studies at Clemson University in Clemson, SC, graduating in December 2023.\nAfter graduation, I moved to San Antonio, Texas to take my current job as a Management Analyst for the Air Force Manpower Analysis Agency.\nI really love my job because I get to travel a lot — this past spring, I even spent two weeks in South Korea! ✈️\n\n\nHobbies & Interests\n\n🧶 Knitting\n\n🧗‍♀️ Rock climbing\n\n🏈 Watching football\n\n🎵 Country music\n\n📚 Reading\n\n🏄‍♀️ Wakesurfing\n\nIn my free time, you can usually find me cheering on the Seattle Seahawks while knitting a gift that’s probably three months late. 😅\nA fun fact about me, is that I scored a 1 on the Putnam Exam."
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,40 @@
     "title": "Hi, I’m Emily",
     "section": "",
     "text": "Management Analyst at the Air Force Manpower Analysis Agency\nApplied Business Analytics Graduate Student at Boston University\n\n\n\n\nExplore\n\nAbout Me Experience CV Contact"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "Clemson University\n\n\nBachelor of Science in Mathematical Sciences\n\n\nMinor in Chinese Studies\n\n\n2019 - 2023\n\n\n\n\nBoston University\n\n\nMaster of Science in Applied Business Analytics\n\n\n2025 - Present\n\n\n\n\n\n\n\nClemson University Research Experience for Undergraduates (REU)\n\n\nCryptography - Zero Knowledge Proofs\n\nParticipated in an intensive summer research program focused on cryptographic protocols and zero knowledge proof systems.\n📄 View Presentation\n\n\n\n\n\n\nUnicity Distance of the Zodiac Killer Cipher\n\nAnalyzed existing publications and presented findings on how the Zodiac Killer-340 Cipher was solved.\n📄 View Presentation\n\n\n\n\n\n\nCryptography\n\n\nAbstract Algebra\n\n\nNumber Theory\n\n\nCombinatorics\n\n\nStatistical Theory\n\n\nProbability Theory\n\n\nData Analytics\n\n\nBusiness Analytics"
+  },
+  {
+    "objectID": "experience.html#education",
+    "href": "experience.html#education",
+    "title": "Experience",
+    "section": "",
+    "text": "Clemson University\n\n\nBachelor of Science in Mathematical Sciences\n\n\nMinor in Chinese Studies\n\n\n2019 - 2023\n\n\n\n\nBoston University\n\n\nMaster of Science in Applied Business Analytics\n\n\n2025 - Present"
+  },
+  {
+    "objectID": "experience.html#research",
+    "href": "experience.html#research",
+    "title": "Experience",
+    "section": "",
+    "text": "Clemson University Research Experience for Undergraduates (REU)\n\n\nCryptography - Zero Knowledge Proofs\n\nParticipated in an intensive summer research program focused on cryptographic protocols and zero knowledge proof systems.\n📄 View Presentation"
+  },
+  {
+    "objectID": "experience.html#projects",
+    "href": "experience.html#projects",
+    "title": "Experience",
+    "section": "",
+    "text": "Unicity Distance of the Zodiac Killer Cipher\n\nAnalyzed existing publications and presented findings on how the Zodiac Killer-340 Cipher was solved.\n📄 View Presentation"
+  },
+  {
+    "objectID": "experience.html#areas-of-interest",
+    "href": "experience.html#areas-of-interest",
+    "title": "Experience",
+    "section": "",
+    "text": "Cryptography\n\n\nAbstract Algebra\n\n\nNumber Theory\n\n\nCombinatorics\n\n\nStatistical Theory\n\n\nProbability Theory\n\n\nData Analytics\n\n\nBusiness Analytics"
   }
 ]
