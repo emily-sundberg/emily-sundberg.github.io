@@ -5,28 +5,29 @@ format:
     css: styles.css
 ---
 
-<div class="hero" role="region" aria-label="Introduction">
-  <div class="profile-img" aria-hidden="true">
-    <img src="emily-sundberg.github.io/images/headshot.jpeg" alt="Emily Sundberg headshot">
-  </div>
+::: columns
+::: {.column width="40%"}
+![](images/headshot.jpeg){width="100%" style="border-radius: 12px;"}
+:::
 
-  <div class="hero-right">
-    <h1>Hi, I’m Emily</h1>
+::: {.column width="60%"}
+**Management Analyst** at the Air Force Manpower Analysis Agency  
+**Applied Business Analytics Graduate Student** at Boston University  
 
-    <p><strong>Management Analyst</strong> at the Air Force Manpower Analysis Agency</p>
-    <p><strong>Applied Business Analytics Graduate Student</strong> at Boston University</p>
+I’m passionate about optimizing organizational efficiency through data-driven insights and analysis.  
+I focus on simulation modeling, decision analytics, and clear data visualization.
+:::
+:::
 
-    <p style="margin-top:12px;color:#555">
-      I’m passionate about optimizing organizational efficiency through data-driven insights and analysis.
-      I focus on simulation modeling, decision analytics, and clear data visualization.
-    </p>
-  </div>
+---
+
+### Quick Links
+<div class="card-grid">
+  <a class="card" href="about.qmd">About Me</a>
+  <a class="card" href="experience.qmd">Experience</a>
+  <a class="card" href="projects.qmd">Projects</a>
+  <a class="card" href="cv.qmd">CV</a>
+  <a class="card" href="contact.qmd">Contact</a>
 </div>
 
-<div class="cards" role="navigation" aria-label="Quick links">
-  <a class="card" href="about.qmd">About Me<br><small>Learn more about me and my interests</small></a>
-  <a class="card" href="experience.qmd">Experience<br><small>Academic and professional background</small></a>
-  <a class="card" href="projects.qmd">Projects<br><small>Featured work &amp; GitHub links</small></a>
-  <a class="card" href="cv.qmd">CV<br><small>View or download my résumé</small></a>
-  <a class="card" href="contact.qmd">Contact<br><small>Get in touch</small></a>
-</div>
+

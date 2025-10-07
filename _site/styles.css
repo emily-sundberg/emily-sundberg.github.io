@@ -92,3 +92,49 @@ footer {
   color: #777;
   font-size: 14px;
 }
+
+/* --- General layout tweaks --- */
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
+/* --- Card grid --- */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 0.8rem 1.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  min-width: 120px;
+}
+
+.card:hover {
+  background-color: #f7f7f7;
+  border-color: #0d47a1;
+  transform: translateY(-2px);
+}
+
+/* --- Make sure cards wrap neatly on mobile --- */
+@media (max-width: 600px) {
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+  }
+}
