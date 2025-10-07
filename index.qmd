@@ -1,5 +1,6 @@
 ---
 title: "Hi, I'm Emily"
+image: "images/headshot.jpeg"
 ---
 
 Management Analyst at the Air Force Manpower Analysis Agency  
