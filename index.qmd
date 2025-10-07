@@ -2,6 +2,29 @@
 title: "Emily Sundberg"
 ---
 
+
+
 # Hi, I'm Emily!
 
-I am a management analyst at the Air Force Manpower Analysis Agency
+Management Analyst at the Air Force Manpower Analysis Agency
+Applied Business Analytics Graduate Student at Boston University
+
+<div class="grid cards" style="margin-top: 1em;">
+::: {.card}
+** [About Me](about.qmd)**  
+Learn more about me and my hobbies!
+:::
+::: {.card}
+** [Experience](experience.qmd)**  
+Explore my academic and personal data projects.
+:::
+::: {.card}
+** [CV](cv.qmd)**  
+View my curriculum vitae and professional experience highlights.
+:::
+::: {.card}
+** [Contact](contact.qmd)**  
+Let’s connect! Get in touch or find me on LinkedIn.
+:::
+</div>
+
