@@ -1,105 +1,45 @@
-/* css styles */
-/* Hero (image + text) */
-.hero {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  background: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(18,38,63,0.06);
-  max-width: 960px;
-  margin: 1.5rem auto; /* centers the hero block */
-}
-
-/* Profile image (square) */
-.profile-img {
-  width: 250px;
-  height: 250px;
-  flex: 0 0 250px;
-  overflow: hidden;
-  border-radius: 10px; /* soft corners while keeping square shape */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-}
-
-.profile-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* ensures nice cropping inside the square box */
-  display: block;
-}
-
-/* Right column text */
-.hero-right h1 {
-  margin: 0 0 8px 0;
-  font-size: 32px;
-  color: #2c3e50;
-}
-.hero-right p {
-  margin: 6px 0;
-  color: #444;
-}
-
-/* Cards grid (below hero) */
-.cards {
-  max-width: 960px;
-  margin: 20px auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
-}
-.card {
-  background: #fff;
-  padding: 18px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(18,38,63,0.06);
-  text-decoration: none;
-  color: #2c3e50;
-  font-weight: 600;
-  display: block;
-}
-.card small {
-  display: block;
-  margin-top: 8px;
-  color: #666;
-  font-weight: 400;
-}
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 24px rgba(18,38,63,0.08);
-  transition: all 220ms ease;
-}
-
-/* Mobile responsiveness: stack hero vertically on small screens */
-@media (max-width: 720px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-  .hero-right {
-    padding-top: 8px;
-  }
-  .profile-img {
-    margin: 0 auto;
-  }
-}
-
-/* Optional page footer style */
-footer {
-  margin-top: 28px;
-  text-align: center;
-  color: #777;
-  font-size: 14px;
-}
-
-/* --- General layout tweaks --- */
+/* =========================
+   GENERAL STYLES
+   ========================= */
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.6;
+  color: #222;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 1rem;
 }
 
-/* --- Card grid --- */
+/* =========================
+   HERO SECTION (IMAGE + TEXT)
+   ========================= */
+
+/* Ensure columns display side-by-side */
+.columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.column {
+  flex: 1;
+}
+
+/* Style the profile image */
+.column img {
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* =========================
+   CARD GRID
+   ========================= */
 .card-grid {
   display: flex;
   flex-wrap: wrap;
@@ -123,17 +63,24 @@ body {
 }
 
 .card:hover {
-  background-color: #f7f7f7;
+  background-color: #f8f9fa;
   border-color: #0d47a1;
   transform: translateY(-2px);
 }
 
-/* --- Make sure cards wrap neatly on mobile --- */
-@media (max-width: 600px) {
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+
   .card-grid {
     flex-direction: column;
     align-items: center;
   }
+
   .card {
     width: 80%;
   }
