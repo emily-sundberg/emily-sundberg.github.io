@@ -8,8 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: projects.qmd
-        text: "Projects"
+      - href: experience.qmd
+        text: "Experience"
       - href: cv.qmd
         text: "CV"
       - href: contact.qmd
