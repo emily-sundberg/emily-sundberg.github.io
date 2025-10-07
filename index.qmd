@@ -1,31 +1,31 @@
 ---
 title: "Hi, I'm Emily"
-format:
+format: 
   html:
     css: styles.css
 ---
 
 ::: columns
+
 ::: {.column width="40%"}
-![](images/headshot.jpeg){width="100%" style="border-radius: 12px;"}
+<img src="images/headshot.jpeg" alt="Headshot">
 :::
 
-::: {.column width="60%"}
+::: {.column width="60%" style="display: flex; flex-direction: column; justify-content: center;"}
 **Management Analyst** at the Air Force Manpower Analysis Agency  
 **Applied Business Analytics Graduate Student** at Boston University  
 
-I’m passionate about optimizing organizational efficiency through data-driven insights and analysis.  
-I focus on simulation modeling, decision analytics, and clear data visualization.
+
 :::
+
 :::
 
 ---
 
-### Quick Links
+### Explore
 <div class="card-grid">
   <a class="card" href="about.qmd">About Me</a>
   <a class="card" href="experience.qmd">Experience</a>
-  <a class="card" href="projects.qmd">Projects</a>
   <a class="card" href="cv.qmd">CV</a>
   <a class="card" href="contact.qmd">Contact</a>
 </div>
