@@ -20,7 +20,7 @@ format:
   html:
     theme:
       - flatly
-      - brand
+      - flatly
     css: styles.css
     toc: true
 
