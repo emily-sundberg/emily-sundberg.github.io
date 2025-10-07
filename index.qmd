@@ -1,12 +1,9 @@
 ---
-title: "Emily Sundberg"
+title: "Hi, I'm Emily"
 ---
 
-
-
-# Hi, I'm Emily!
-
 Management Analyst at the Air Force Manpower Analysis Agency
+---
 Applied Business Analytics Graduate Student at Boston University
 
 <div class="grid cards" style="margin-top: 1em;">
