@@ -21,6 +21,9 @@ format:
     theme:
       - flatly
       - flatly
+      - flatly
+      - flatly
+      - flatly
     css: styles.css
     toc: true
 
