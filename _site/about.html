@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.7.34">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Emily Sundberg</title>
+<title>About Me – Emily Sundberg</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,15 +32,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b30a0142c0cc7f25f97abb07c4304a06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,15 +72,13 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Emily Sundberg</span>
     </a>
@@ -98,7 +95,19 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./experience.html"> 
+<span class="menu-text">Experience</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -111,15 +120,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">About Me</h1>
 </div>
 
 
@@ -136,11 +143,106 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<style>
+/* Flex layout for columns */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+/* Left column: text */
+.column-left {
+  flex: 1 1 50%;
+}
+
+/* Right column: carousel */
+.column-right {
+  flex: 0 0 50%;
+  max-width: 600px;
+  overflow: hidden;           /* prevent overlap */
+  position: relative;         /* ensures Swiper stays contained */
+}
+
+/* Constrain carousel inside column */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  max-height: 400px;          /* limit height */
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* scale and crop images */
+  border-radius: 12px;
+}
+</style>
+<div class="about-container">
+<div class="text-column">
+<p>I’m originally from <strong>Seattle, Washington</strong>, and I’m <strong>24 years old</strong>.</p>
+<p>I studied <strong>Abstract Mathematics</strong> and <strong>Chinese Studies</strong> at <strong>Clemson University</strong> in Clemson, SC, graduating in <strong>December 2023</strong>.</p>
+<p>After graduation, I moved to <strong>San Antonio, Texas</strong> to take my current job as a <strong>Management Analyst</strong> for the <strong>Air Force Manpower Analysis Agency</strong>.</p>
+<p>I really love my job because I get to <strong>travel a lot</strong> — this past spring, I even spent <strong>two weeks in South Korea!</strong> ✈️</p>
+<hr>
+<section id="hobbies-interests" class="level3">
+<h3 class="anchored" data-anchor-id="hobbies-interests">Hobbies &amp; Interests</h3>
+<ul>
+<li>🧶 Knitting<br>
+</li>
+<li>🧗‍♀️ Rock climbing<br>
+</li>
+<li>🏈 Watching football<br>
+</li>
+<li>🎵 Country music<br>
+</li>
+<li>📚 Reading<br>
+</li>
+<li>🏄‍♀️ Wakesurfing</li>
+</ul>
+<p>In my free time, you can usually find me <strong>cheering on the Seattle Seahawks</strong> while knitting a gift that’s probably <strong>three months late</strong>. 😅</p>
+</section>
+</div>
+<div class="carousel-column">
+
+<div class="swiper-container" style="width:100%; max-width:600px;">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/korea.jpeg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/seahawks.jpeg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/clemson.jpg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/DC.jpeg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/award.jpeg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/corey.jpeg" style="width:100%; border-radius:12px;"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+</div>
+</div>
 
 
 
 </main> <!-- /main -->
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var swiper = new Swiper('.swiper-container', {
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: { el: '.swiper-pagination', clickable: true },
+    navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -192,14 +294,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
