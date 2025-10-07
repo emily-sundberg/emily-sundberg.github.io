@@ -109,9 +109,9 @@ title: "Experience"
 <div class="institution">Clemson University Research Experience for Undergraduates (REU)</div>
 <div class="degree">Cryptography - Zero Knowledge Proofs</div>
 
-Participated in an intensive summer research program focused on cryptographic protocols and zero knowledge proof systems.
+Participated in an intensive summer research program focused on cryptographic protocols and zero knowledge proof systems. Presented on the research program and some of our findings.
 
-<a href="documents/research-paper.pdf" class="pdf-link">📄 View Presentation</a>
+<a href="images/Zero-Knowledge.pdf" class="pdf-link">📄 View Presentation</a>
 :::
 
 :::
@@ -124,7 +124,7 @@ Participated in an intensive summer research program focused on cryptographic pr
 
 Analyzed existing publications and presented findings on how the Zodiac Killer-340 Cipher was solved.
 
-<a href="documents/zodiac-project.pdf" class="pdf-link">📄 View Presentation</a>
+<a href="images/zodiac.pdf" class="pdf-link">📄 View Presentation</a>
 :::
 
 :::
