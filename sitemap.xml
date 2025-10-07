@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://emily-sundberg.github.io/projects.html</loc>
-    <lastmod>2025-10-07T02:04:48.922Z</lastmod>
+    <loc>https://emily-sundberg.github.io/about.html</loc>
+    <lastmod>2025-10-07T03:38:36.615Z</lastmod>
   </url>
   <url>
     <loc>https://emily-sundberg.github.io/cv.html</loc>
-    <lastmod>2025-10-07T02:04:48.921Z</lastmod>
+    <lastmod>2025-10-07T03:38:36.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emily-sundberg.github.io/index.html</loc>
+    <lastmod>2025-10-07T03:38:36.615Z</lastmod>
   </url>
   <url>
     <loc>https://emily-sundberg.github.io/contact.html</loc>
-    <lastmod>2025-10-07T02:04:48.921Z</lastmod>
+    <lastmod>2025-10-07T03:38:36.615Z</lastmod>
   </url>
   <url>
-    <loc>https://emily-sundberg.github.io/about.html</loc>
-    <lastmod>2025-10-07T02:04:48.921Z</lastmod>
+    <loc>https://emily-sundberg.github.io/experience.html</loc>
+    <lastmod>2025-10-07T03:38:36.615Z</lastmod>
   </url>
 </urlset>
