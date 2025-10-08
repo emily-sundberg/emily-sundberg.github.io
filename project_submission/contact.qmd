@@ -1,0 +1,32 @@
+---
+title: "Contact Me"
+format:
+  html:
+    css: styles.css
+execute:
+  echo: false
+  eval: false     # no Python execution needed
+---
+
+## Get in Touch
+
+Have a question or want to collaborate? Fill out the form below — your message will be sent straight to my inbox.
+
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="max-width:600px; margin-top:1.5rem;">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required style="width:100%; padding:8px; border-radius:6px;"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="_replyto" required style="width:100%; padding:8px; border-radius:6px;"><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="6" required style="width:100%; padding:8px; border-radius:6px;"></textarea><br><br>
+
+  <button type="submit" class="button" style="background-color:#007acc; color:white; padding:12px 20px; border:none; border-radius:8px;">
+    ✉️ Send Message
+  </button>
+</form>
+
+<p style="margin-top:1rem; color:#555;">
+You can also reach me directly at <a href="mailto:emilylsundberg@gmail.com">emilylsundberg@gmail.com</a>.
+</p>

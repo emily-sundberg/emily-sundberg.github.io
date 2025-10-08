@@ -1,0 +1,33 @@
+---
+title: "Hi, I'm Emily"
+format: 
+  html:
+    css: styles.css
+---
+
+::: columns
+
+::: {.column width="40%"}
+<img src="images/headshot.jpeg" alt="Headshot">
+:::
+
+::: {.column width="60%" style="display: flex; flex-direction: column; justify-content: center;"}
+**Management Analyst** at the Air Force Manpower Analysis Agency  
+**Applied Business Analytics Graduate Student** at Boston University  
+
+
+:::
+
+:::
+
+---
+
+### Explore
+<div class="card-grid">
+  <a class="card" href="about.qmd">About Me</a>
+  <a class="card" href="experience.qmd">Experience</a>
+  <a class="card" href="cv.qmd">CV</a>
+  <a class="card" href="contact.qmd">Contact</a>
+</div>
+
+

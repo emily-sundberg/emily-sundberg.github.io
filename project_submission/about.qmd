@@ -1,0 +1,95 @@
+---
+title: "About Me"
+format: 
+    html:
+        include-after-body: scripts.html
+---
+
+
+<style>
+/* Flex layout for columns */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+/* Left column: text */
+.column-left {
+  flex: 1 1 50%;
+}
+
+/* Right column: carousel */
+.column-right {
+  flex: 0 0 50%;
+  max-width: 600px;
+  overflow: hidden;           /* prevent overlap */
+  position: relative;         /* ensures Swiper stays contained */
+}
+
+/* Constrain carousel inside column */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  max-height: 400px;          /* limit height */
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* scale and crop images */
+  border-radius: 12px;
+}
+</style>
+
+
+::: {.about-container}
+
+::: {.text-column}
+
+I'm originally from **Seattle, Washington**, and I'm **24 years old**.  
+
+I studied **Abstract Mathematics** and **Chinese Studies** at **Clemson University** in Clemson, SC, graduating in **December 2023**.  
+
+After graduation, I moved to **San Antonio, Texas** to take my current job as a **Management Analyst** for the **Air Force Manpower Analysis Agency**.  
+
+I really love my job because I get to **travel a lot** — this past spring, I even spent **two weeks in South Korea!** ✈️  
+
+---
+
+### Hobbies & Interests
+- 🧶 Knitting  
+- 🧗‍♀️ Rock climbing  
+- 🏈 Watching football  
+- 🎵 Country music  
+- 📚 Reading  
+- 🏄‍♀️ Wakesurfing
+
+In my free time, you can usually find me **cheering on the Seattle Seahawks** while knitting a gift that's probably **three months late**. 😅  
+
+A fun fact about me, is that I scored a **1** on the Putnam Exam.
+
+:::
+
+::: {.carousel-column}
+
+```{=html}
+
+<div class="swiper-container" style="width:100%; max-width:600px;">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/korea.jpeg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/seahawks.jpeg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/clemson.jpg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/DC.jpeg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/award.jpeg" style="width:100%; border-radius:12px;"></div>
+    <div class="swiper-slide"><img src="images/corey.jpeg" style="width:100%; border-radius:12px;"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+```
+:::
+
+:::

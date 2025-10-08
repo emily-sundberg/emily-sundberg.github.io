@@ -1,0 +1,87 @@
+/* =========================
+   GENERAL STYLES
+   ========================= */
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  color: #222;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 1rem;
+}
+
+/* =========================
+   HERO SECTION (IMAGE + TEXT)
+   ========================= */
+
+/* Ensure columns display side-by-side */
+.columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.column {
+  flex: 1;
+}
+
+/* Style the profile image */
+.column img {
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* =========================
+   CARD GRID
+   ========================= */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 0.8rem 1.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  min-width: 120px;
+}
+
+.card:hover {
+  background-color: #f8f9fa;
+  border-color: #0d47a1;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
