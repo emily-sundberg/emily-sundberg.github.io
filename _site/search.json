@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m originally from Seattle, Washington, and I’m 24 years old.\nI studied Abstract Mathematics and Chinese Studies at Clemson University in Clemson, SC, graduating in December 2023.\nAfter graduation, I moved to San Antonio, Texas to take my current job as a Management Analyst for the Air Force Manpower Analysis Agency.\nI really love my job because I get to travel a lot — this past spring, I even spent two weeks in South Korea! ✈️\n\n\nHobbies & Interests\n\n🧶 Knitting\n\n🧗‍♀️ Rock climbing\n\n🏈 Watching football\n\n🎵 Country music\n\n📚 Reading\n\n🏄‍♀️ Wakesurfing\n\nIn my free time, you can usually find me cheering on the Seattle Seahawks while knitting a gift that’s probably three months late. 😅"
+    "text": "I’m originally from Seattle, Washington, and I’m 24 years old.\nI studied Abstract Mathematics and Chinese Studies at Clemson University in Clemson, SC, graduating in December 2023.\nAfter graduation, I moved to San Antonio, Texas to take my current job as a Management Analyst for the Air Force Manpower Analysis Agency.\nI really love my job because I get to travel a lot — this past spring, I even spent two weeks in South Korea! ✈️\n\n\nHobbies & Interests\n\n🧶 Knitting\n\n🧗‍♀️ Rock climbing\n\n🏈 Watching football\n\n🎵 Country music\n\n📚 Reading\n\n🏄‍♀️ Wakesurfing\n\nIn my free time, you can usually find me cheering on the Seattle Seahawks while knitting a gift that’s probably three months late. 😅\nA fun fact about me, is that I scored a 1 on the Putnam Exam."
   },
   {
     "objectID": "index.html",
@@ -68,5 +68,19 @@
     "title": "Experience",
     "section": "",
     "text": "Cryptography\n\n\nAbstract Algebra\n\n\nNumber Theory\n\n\nCombinatorics\n\n\nStatistical Theory\n\n\nProbability Theory\n\n\nData Analytics\n\n\nBusiness Analytics"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Below you can download my full CV or preview it directly on this page.\n\n\n\n\n   📄 Download My CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#my-cv",
+    "href": "cv.html#my-cv",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Below you can download my full CV or preview it directly on this page.\n\n\n\n\n   📄 Download My CV (PDF)"
   }
 ]

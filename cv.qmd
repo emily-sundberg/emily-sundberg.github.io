@@ -1,0 +1,48 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    css: styles.css
+execute:
+  echo: false      
+  eval: true    
+---
+
+## My CV
+
+Below you can download my full CV or preview it directly on this page.
+
+```{python}
+from IPython.display import display, HTML
+
+# Path to your CV file
+cv_path = "images/CV.pdf"
+
+# Create a styled download button
+download_html = f'''
+<a href="{cv_path}" download class="button"
+   style="display:inline-block;
+          background-color:#007acc;
+          color:white;
+          padding:12px 20px;
+          text-decoration:none;
+          border-radius:8px;
+          font-weight:500;">
+   📄 Download My CV (PDF)
+</a>
+'''
+display(HTML(download_html))
+```
+```{python}
+from IPython.display import display, HTML
+
+# Create an iframe preview of the PDF
+iframe_html = f'''
+<iframe src="{cv_path}" width="100%" height="800px"
+        style="border:1px solid #ccc; border-radius:8px;">
+</iframe>
+'''
+display(HTML(iframe_html))
+```
+
+
